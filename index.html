@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fruitful Delite | Fresh Healthy Bowls</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <h1 class="logo">Fruitful Delite</h1>
+      <a class="btn btn-outline" href="#plans">View Plans</a>
+    </nav>
+    <div class="hero-content container">
+      <p class="eyebrow">Fresh • Fast • Nourishing</p>
+      <h2>Healthy bowls made daily and delivered to your door.</h2>
+      <p>
+        Build your wellness routine with chef-crafted fruit bowls, protein bowls,
+        and smoothies made from real ingredients.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#plans">Start Subscription</a>
+        <a class="btn btn-secondary" href="#contact">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container" id="features">
+      <h3>Why customers choose Fruitful Delite</h3>
+      <div class="grid three-col">
+        <article class="card">
+          <h4>Farm-fresh ingredients</h4>
+          <p>We source produce from trusted local farms to maximize flavor and nutrition.</p>
+        </article>
+        <article class="card">
+          <h4>Flexible delivery</h4>
+          <p>Choose 3, 5, or 7 days per week and adjust your deliveries anytime.</p>
+        </article>
+        <article class="card">
+          <h4>Balanced nutrition</h4>
+          <p>Every bowl includes fiber, healthy fats, and protein options to fuel your day.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="plans">
+      <div class="container">
+        <h3>Subscription plans</h3>
+        <div class="grid plans">
+          <article class="card plan">
+            <h4>Starter</h4>
+            <p class="price">$49<span>/week</span></p>
+            <ul>
+              <li>3 bowls per week</li>
+              <li>1 smoothie add-on</li>
+              <li>Free delivery</li>
+            </ul>
+            <button class="btn" type="button">Choose Starter</button>
+          </article>
+          <article class="card plan featured">
+            <p class="badge">Most Popular</p>
+            <h4>Balance</h4>
+            <p class="price">$79<span>/week</span></p>
+            <ul>
+              <li>5 bowls per week</li>
+              <li>2 smoothie add-ons</li>
+              <li>Priority delivery window</li>
+            </ul>
+            <button class="btn" type="button">Choose Balance</button>
+          </article>
+          <article class="card plan">
+            <h4>Performance</h4>
+            <p class="price">$109<span>/week</span></p>
+            <ul>
+              <li>7 bowls per week</li>
+              <li>3 smoothie add-ons</li>
+              <li>Premium toppings included</li>
+            </ul>
+            <button class="btn" type="button">Choose Performance</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <h3>Ready to get started?</h3>
+      <p>Tell us where to deliver and we’ll help you pick the right plan.</p>
+      <form class="contact-form" id="leadForm">
+        <label>
+          Name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          ZIP Code
+          <input type="text" name="zip" required />
+        </label>
+        <button class="btn" type="submit">Request a Callback</button>
+      </form>
+      <p id="formMessage" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Fruitful Delite. Eat vibrant. Live vibrant.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
